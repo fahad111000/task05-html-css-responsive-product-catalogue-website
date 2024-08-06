@@ -11,8 +11,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid rgb(41, 139, 219);
-    padding: 10px 0 ;
+    border-bottom: 1px solid rgb(169, 203, 231);
+    padding: 10px 0;
 }
 
 
@@ -83,9 +83,21 @@ header {
 .icons {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .icons i {
     font-size: 30px;
+    cursor: pointer;
 }
+
+.icons i:nth-child(2) {
+    color: rgba(59, 57, 57, 0.904);
+}
+
+.icons i:nth-child(1) {
+    color: rgb(41, 139, 219);
+
+}
+
+/* _____________________________________________ */
