@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ____Header____ */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(41, 139, 219);
+    padding: 10px 0 ;
+}
+
+
+/* ____LOGO____ */
+.logo h3 {
+    color: rgb(91, 155, 214);
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0;
+}
+
+
+.logo span {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+/* ____Search bar____ */
+.search-bar {
+    border-right: none;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.search-bar input {
+    width: 88%;
+    outline: none;
+    height: inherit;
+    border: 1px solid rgb(189, 183, 183);
+    padding: 0 10px;
+    font-size: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.3s ease-out;
+    color: rgb(111, 116, 116);
+    letter-spacing: 2px;
+}
+
+.search-bar input:focus {
+    border: 1px solid rgb(108, 181, 240);
+    box-shadow: 0 0 4px 1px rgb(205, 223, 238);
+}
+
+.search-bar .icon {
+    width: 12%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(41, 139, 219);
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-bar .icon i {
+    font-size: 22px;
+    color: #ffff;
+}
+
+/* ____Icons____ */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons i {
+    font-size: 30px;
+}
