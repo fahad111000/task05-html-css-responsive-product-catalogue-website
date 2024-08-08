@@ -114,16 +114,12 @@ header {
     border: 2px solid orange;
 }
 
-.row {
+.row .card {
     border: 2px solid red;
+    width: 180px;
+    height: 200px;
+    margin: 0 auto;
 }
-
-.col-lg-2 {
-    border: 2px solid black;
-    /* width: 100%; */
-}
-
-
 
 
 
