@@ -105,30 +105,14 @@ header {
 
 /* _______________SAMRT PHONE SECTION__________________ */
 
-.cards-section {
-    border: 2px solid red;
-} 
-
-
-.container {
-    border: 2px solid orange;
+.row {
+    padding: 0 20px;
 }
+
 
 .row .card {
-    border: 2px solid red;
-    width: 180px;
-    height: 200px;
+    /* border: 2px solid red; */
     margin: 0 auto;
+    cursor: pointer;
+    width: 10rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
