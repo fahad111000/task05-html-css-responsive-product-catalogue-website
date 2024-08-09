@@ -163,7 +163,15 @@ header {
     margin: 0 auto;
     cursor: pointer;
     width: 10rem;
+    transition: 0.1s;
 }
+
+.row .card:hover {
+    box-shadow: 0 1px 5px 1px rgba(146, 200, 245, 0.445);
+
+}
+
+/* .row .card-shadow */
 
 /* _________LAPTOP SECTION_____________ */
 
