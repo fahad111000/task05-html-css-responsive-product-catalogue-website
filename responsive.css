@@ -36,3 +36,37 @@
     }
 
 }
+
+
+@media (375px <=width <=425px) {
+
+
+
+    .logo h3 {
+        font-size: 20px;
+    }
+
+
+    .logo span {
+        font-size: 11px;
+        letter-spacing: 8px;
+    }
+
+    /* ____Search bar____ */
+
+    .search-bar {
+        width: 60%;
+    }
+
+    .search-bar .icon {
+        width: 18%;
+    }
+
+    .search-bar .icon i {
+        font-size: 20px;
+    }
+
+    .icons {
+        display: none;
+    }
+}
