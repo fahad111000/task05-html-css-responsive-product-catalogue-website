@@ -18,7 +18,7 @@ header {
 
 /* ____LOGO____ */
 .logo h3 {
-    color: rgb(91, 155, 214);
+    color: rgb(41, 139, 219);
     font-weight: bolder;
     font-size: 25px;
     margin: 0;
@@ -80,6 +80,7 @@ header {
 }
 
 /* ____Icons____ */
+
 .icons {
     display: flex;
     align-items: center;
@@ -100,7 +101,50 @@ header {
 
 }
 
-/* _____________________________________________ */
+/* _______________BANNER SECTION______________ */
+
+.banner-section {
+    margin-top: 50px;
+}
+
+
+.banner-section .row nav {
+    border-radius: 5px;
+    border: 1px solid rgb(223, 216, 216);
+    width: 100%;
+
+}
+
+.banner-section .row nav span {
+    text-align: center;
+    display: block;
+    padding: 8px 0;
+    background: rgb(41, 139, 219);
+    color: #fff;
+    font-weight: 500;
+}
+
+.banner-section .row nav ul {
+    list-style: none;
+    padding:  0;
+}
+
+.banner-section .row nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 5px;
+    transition: 0.1s ease;
+}
+
+.banner-section .row nav ul li a:hover {
+    background-color: rgb(41, 139, 219);
+    color: #fff;
+}
+
+.banner-section .row .banner {
+    border: 2px solid green;
+}
+
 
 
 /* _______________SAMRT PHONE SECTION__________________ */
@@ -128,14 +172,6 @@ header {
 }
 
 /* ___________WATCHES SECTION_____________ */
-/* .smart-watches {
-    border: 2px solid red;
-} */
-
-/* .smart-watches .row {
-    border: 2px solid black;
-} */
-
 .smart-watches .row .cols {
     /* border: 2px solid black; */
     padding: 0;
@@ -153,10 +189,10 @@ header {
 }
 
 
-.smart-watches .row .cols .card img{
+.smart-watches .row .cols .card img {
     width: 150px;
     height: 150px;
-    
+
 }
 
 /* _____________FOOTER___________ */
@@ -166,7 +202,7 @@ header {
 }
 
 .footer .row i {
-    padding:10px;
+    padding: 10px;
     font-size: 30px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -182,7 +218,7 @@ header {
 }
 
 .sub {
-    padding: 10px 0 ;
+    padding: 10px 0;
     background-color: rgba(190, 224, 252, 0.596);
 }
 
