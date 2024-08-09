@@ -161,9 +161,33 @@ header {
 
 /* _____________FOOTER___________ */
 .footer {
-    border: 2px solid red;
+    background-color: rgba(212, 232, 250, 0.952);
+    margin-top: 50px;
+}
+
+.footer .row i {
+    padding:10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .footer .row {
-    border: 2px solid black;
+    padding: 50px 0;
+}
+
+
+.footer .row i:hover {
+    box-shadow: 1px 1px 4px 1px rgb(223, 214, 214);
+}
+
+.sub {
+    padding: 10px 0 ;
+    background-color: rgba(190, 224, 252, 0.596);
+}
+
+.sub p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 4px;
 }
