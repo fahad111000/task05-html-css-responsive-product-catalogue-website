@@ -1,0 +1,38 @@
+@media (425px <=width <=725px) {
+    header {
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(169, 203, 231);
+        padding: 10px 20px;
+
+    }
+
+    .logo h3 {
+        font-size: 20px;
+    }
+
+
+    .logo span {
+        font-size: 12px;
+        letter-spacing: 8px;
+    }
+
+    /* ____Search bar____ */
+
+    .search-bar {
+        width: 70%;
+    }
+
+    .search-bar .icon {
+        width: 20%;
+    }
+
+    .search-bar .icon i {
+        font-size: 22px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+}
