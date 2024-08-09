@@ -126,7 +126,7 @@ header {
 
 .banner-section .row nav ul {
     list-style: none;
-    padding:  0;
+    padding: 0;
 }
 
 .banner-section .row nav ul li a {
@@ -142,8 +142,13 @@ header {
 }
 
 .banner-section .row .banner {
-    border: 2px solid green;
+    background-image: url('./images/banner-10.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
 }
+
+
 
 
 
