@@ -158,3 +158,12 @@ header {
     height: 150px;
     
 }
+
+/* _____________FOOTER___________ */
+.footer {
+    border: 2px solid red;
+}
+
+.footer .row {
+    border: 2px solid black;
+}
