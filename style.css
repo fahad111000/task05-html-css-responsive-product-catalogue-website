@@ -111,8 +111,50 @@ header {
 
 
 .row .card {
-    /* border: 2px solid red; */
     margin: 0 auto;
     cursor: pointer;
     width: 10rem;
+}
+
+/* _________LAPTOP SECTION_____________ */
+
+.laptop-section {
+    padding: 50px 0;
+}
+
+
+.laptop-section .row .card {
+    width: 15rem;
+}
+
+/* ___________WATCHES SECTION_____________ */
+/* .smart-watches {
+    border: 2px solid red;
+} */
+
+/* .smart-watches .row {
+    border: 2px solid black;
+} */
+
+.smart-watches .row .cols {
+    /* border: 2px solid black; */
+    padding: 0;
+    margin-top: 50px;
+}
+
+.smart-watches .row .cols .card {
+    width: 100%;
+    /* padding: 10px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.smart-watches .row .cols .card img{
+    width: 150px;
+    height: 150px;
+    
 }
