@@ -219,7 +219,8 @@ header {
 
 
 .footer .row i:hover {
-    box-shadow: 1px 1px 4px 1px rgb(223, 214, 214);
+    box-shadow: 1px 1px 4px 1px rgb(86, 176, 228);
+    border-radius: 3px;
 }
 
 .sub {
