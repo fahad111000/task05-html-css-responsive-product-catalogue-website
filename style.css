@@ -171,7 +171,6 @@ header {
 
 }
 
-/* .row .card-shadow */
 
 /* _________LAPTOP SECTION_____________ */
 
@@ -186,15 +185,12 @@ header {
 
 /* ___________WATCHES SECTION_____________ */
 .smart-watches .row .cols {
-    /* border: 2px solid black; */
     padding: 0;
     margin-top: 50px;
 }
 
 .smart-watches .row .cols .card {
     width: 100%;
-    /* padding: 10px; */
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     align-items: center;
