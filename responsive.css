@@ -36,8 +36,7 @@
     }
 
 }
-
-
+ 
 @media (375px <=width <=425px) {
 
 
@@ -64,6 +63,45 @@
 
     .search-bar .icon i {
         font-size: 20px;
+    }
+
+    .icons {
+        display: none;
+    }
+}
+
+@media (300px <=width <=375px) {
+
+
+
+    .logo h3 {
+        font-size: 18px;
+    }
+
+
+    .logo span {
+        font-size: 10px;
+        letter-spacing: 8px;
+    }
+
+    /* ____Search bar____ */
+
+    .search-bar {
+        width: 66%;
+    }
+
+    .search-bar input {
+        padding: 0 12px;
+        font-size: 12px;
+        letter-spacing: none;
+    }
+
+    .search-bar .icon {
+        width: 20%;
+    }
+
+    .search-bar .icon i {
+        font-size: 18px;
     }
 
     .icons {
