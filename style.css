@@ -162,13 +162,35 @@ header {
 .row .card {
     margin: 0 auto;
     cursor: pointer;
-    width: 10rem;
+    width: 11rem;
     transition: 0.1s;
 }
 
 .row .card:hover {
     box-shadow: 0 1px 5px 1px rgba(146, 200, 245, 0.445);
 
+}
+.price-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.price-button .btn {
+    width: 100%;
+    background:  rgb(41, 139, 219);
+    color: #fff;
+
+}
+.price-button .btn:hover {
+    background-color:  rgb(34, 127, 204);
+    color: #fff;
+}
+
+.row .card-rating {
+    color: rgb(255, 153, 0);
 }
 
 
